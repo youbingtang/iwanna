@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.2" tiledversion="1.2.4" orientation="orthogonal" renderorder="right-down" width="25" height="19" tilewidth="32" tileheight="32" infinite="0" nextlayerid="8" nextobjectid="25">
+ <tileset firstgid="1" source="tiles.tsx"/>
+ <objectgroup id="7" name="Trigger">
+  <object id="11" name="LoadGame" x="224" y="448" width="32" height="32">
+   <properties>
+    <property name="script" value="Select"/>
+   </properties>
+  </object>
+  <object id="12" name="Medium" x="544" y="448" width="32" height="32">
+   <properties>
+    <property name="script" value="Select"/>
+   </properties>
+  </object>
+  <object id="22" name="Hard" x="640" y="320" width="32" height="32">
+   <properties>
+    <property name="script" value="Select"/>
+   </properties>
+  </object>
+  <object id="23" name="VeryHard" x="128" y="320" width="32" height="32">
+   <properties>
+    <property name="script" value="Select"/>
+   </properties>
+  </object>
+  <object id="24" name="Impossible" x="384" y="160" width="32" height="32">
+   <properties>
+    <property name="script" value="Select"/>
+   </properties>
+  </object>
+ </objectgroup>
+ <layer id="1" name="Layer2" width="25" height="19">
+  <data encoding="csv">
+8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,
+8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+8,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,8,
+8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+8,0,0,0,0,0,0,0,0,0,12,12,12,12,12,0,0,0,0,0,0,0,0,0,8,
+8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+8,0,0,0,23,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,23,0,0,0,8,
+8,0,0,12,12,12,0,0,0,0,0,0,0,0,0,0,0,0,0,12,12,12,0,0,8,
+8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+8,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,8,
+8,0,0,0,0,0,0,23,0,0,0,0,0,0,0,0,0,23,0,0,0,0,0,0,8,
+8,0,0,0,0,0,12,12,12,0,0,0,0,0,0,0,12,12,12,0,0,0,0,0,8,
+8,0,0,0,0,0,0,0,0,0,0,0,14,0,0,0,0,0,0,0,0,0,0,0,8,
+8,0,0,0,0,0,0,0,0,0,20,0,0,0,20,0,0,0,0,0,0,0,0,0,8,
+8,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,12,8
+</data>
+ </layer>
+</map>
